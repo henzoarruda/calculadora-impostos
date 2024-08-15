@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Impostos - Remessa Conforme</title>
+    <link rel="stylesheet" href="/Style/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cálculo de Impostos</h1>
+        <label for="moeda">Selecione a moeda:</label>
+        <select id="moeda" onchange="atualizarPlaceholder()">
+            <option value="reais">Reais (R$)</option>
+            <option value="dolar">Dólar (US$)</option>
+        </select>
+        <label for="valor">Valor do Produto:</label>
+        <input type="number" id="valor" placeholder="Insira o valor do produto" required>
+        <label for="frete">Valor do Frete (R$):</label>
+        <input type="number" id="frete" placeholder="Insira o valor do frete" required>
+        <label for="seguro">Valor do Seguro (R$):</label>
+        <input type="number" id="seguro" placeholder="Insira o valor do seguro" required>
+
+        <div class="remessa">
+            <p>Compra foi feita no Remessa Conforme?</p>
+            <label><input type="radio" name="remessa" value="sim"> Sim</label>
+            <label><input type="radio" name="remessa" value="nao"> Não</label>
+        </div>
+
+        <button onclick="calcularImpostos()">Calcular Impostos</button>
+        <div class="result" id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
