@@ -12,10 +12,10 @@ O objetivo deste projeto é criar uma ferramenta web simples e eficaz para calcu
 
 ## Tecnologias Utilizadas
 
-1. **HTML (HyperText Markup Language):**
+1. **HTML:**
    - Utilizado para estruturar o conteúdo da página, incluindo formulários e elementos de entrada.
 
-2. **CSS (Cascading Style Sheets):**
+2. **CSS:**
    - Usado para estilizar a página e garantir que a interface seja atraente e responsiva. Inclui ajustes de layout e design para diferentes tamanhos de tela.
 
 3. **JavaScript:**
@@ -33,7 +33,7 @@ Valor Aduaneiro = Valor do Produto + Valor do Frete + Valor do Seguro
 ### 2. Cálculo do Imposto de Importação (II):
 
 - **Para compras no "Remessa Conforme":**
-  - Se o valor aduaneiro for até 50 dólares (aproximadamente R$ 274,00 com taxa de câmbio de R$ 5,48):
+  - Se o valor aduaneiro for até 50 dólares (aproximadamente R$ 274,00 com taxa de câmbio de R$ 5,50):
     ```
     II = Valor Aduaneiro × 20%
     ```
@@ -41,7 +41,7 @@ Valor Aduaneiro = Valor do Produto + Valor do Frete + Valor do Seguro
     ```
     II = (Valor Aduaneiro × 60%) - Desconto de US$ 20 em Reais
     ```
-  O desconto é convertido para reais usando a taxa de câmbio (US$ 20 × R$ 5,48).
+  O desconto é convertido para reais usando a taxa de câmbio (US$ 20 × R$ 5,50).
 
 - **Para compras fora do "Remessa Conforme":**
 II = Valor Aduaneiro × 60%
@@ -77,7 +77,7 @@ Valor Total a Pagar = Valor do Produto + Valor Total dos Impostos
 
 ## Demonstração do Projeto
 
-[Inclua aqui um link para a aplicação ao vivo ou uma demonstração do projeto, se disponível.]
+<img width=100% src=src/imagens/demonstracao1.jpg/>
 
 ## Conclusão
 
