@@ -1,9 +1,3 @@
-/* Reset básico para margens e paddings */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 /* Estilo geral do corpo da página */
 body {
