@@ -1,6 +1,6 @@
 # Apresentação do Projeto: Calculadora de Impostos de Importação
 
-## Objetivo da Aplicação
+## Sobre
 
 O objetivo deste projeto é criar uma ferramenta web simples e eficaz para calcular impostos de importação. A aplicação permite que o usuário insira o valor do produto, escolha se a compra foi realizada através do "Remessa Conforme" e, com base nessas informações, calcula os impostos aplicáveis e o valor total a ser pago.
 
@@ -82,3 +82,8 @@ Valor Total a Pagar = Valor do Produto + Valor Total dos Impostos
 ## Conclusão
 
 Este projeto é uma solução prática para calcular impostos de importação, proporcionando uma ferramenta útil para quem realiza compras internacionais. A combinação de HTML, CSS e JavaScript garante uma experiência de usuário intuitiva e responsiva. A aplicação está pronta para ser utilizada e aprimorada conforme necessário.
+
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-327FC7?style=for-the-badge&logo=github&logoColor=white)
