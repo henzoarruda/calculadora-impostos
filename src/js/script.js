@@ -10,7 +10,7 @@ function atualizarPlaceholder() {
 }
 
 function calcularImpostos() {
-    const valorDolarAtual = 5.48; // 1 dólar = R$ 5,48
+    const valorDolarAtual = 5.50; // 1 dólar = R$ 5,50 
     const limiteDolar = 50;
     const limiteReais = limiteDolar * valorDolarAtual; // Converte o limite de US$ 50 para reais
 
